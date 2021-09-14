@@ -29,6 +29,7 @@ public class GeneratorSqlmap {
 	public static void main(String[] args) throws Exception {
 		try {
 			GeneratorSqlmap generatorSqlmap = new GeneratorSqlmap();
+			System.out.println("测试git提交！！！");
 			generatorSqlmap.generator();
 		} catch (Exception e) {
 			e.printStackTrace();
